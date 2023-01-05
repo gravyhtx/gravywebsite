@@ -1,0 +1,14 @@
+.wrapper {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.container {
+  position: relative;
+}
+
+.logo {
+  margin: 0 auto;
+  padding: 0;
+}
