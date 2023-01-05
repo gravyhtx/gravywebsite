@@ -58,11 +58,11 @@ export default function DefaultLayout({
   useSideNav = useSideNav ? useSideNav : true;
   swipeNav = swipeNav === false ? ' no-swiping' : '';
 
-  useEffect(() => {
-    if(withAuth && (authCheck() === false)) {
-      window.location.href = authRedirect ? authRedirect : '/';
-    }
-  });
+  // useEffect(() => {
+  //   if(withAuth && (authCheck() === false)) {
+  //     window.location.href = authRedirect ? authRedirect : '/';
+  //   }
+  // });
   
   const [sideNav, setSideNav] = useState(false);
 
